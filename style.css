@@ -934,115 +934,15 @@ li {
   background: var(--orange-color01);
 }
 
-.ploblem-container {
-  display: flex;
-  justify-content: center;
-  padding: 24px 16px 0;
+.ploblem-all_img {
+  margin: 0 auto;
 }
 @media screen and (min-width: 1080px) {
-  .ploblem-container {
-    width: 1080px;
+  .ploblem-all_img {
+    padding: 36px 0 48px;
+    width: 850px;
     margin: 0 auto;
   }
-}
-.ploblem-container:first-child {
-  padding: 80px 16px 0;
-}
-
-.ploblem-container:last-child {
-  padding: 24px 16px 24px;
-}
-
-.ploblem-img {
-  width: 60px;
-  height: 60px;
-  margin-left: 24px;
-}
-@media screen and (min-width: 1080px) {
-  .ploblem-img {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-.ploblem-img_left {
-  width: 60px;
-  height: 60px;
-  margin-right: 24px;
-}
-@media screen and (min-width: 1080px) {
-  .ploblem-img_left {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-.ploblem-box_right {
-  position: relative;
-  width: 285px;
-  background: var(--white-color);
-  text-align: left;
-  color: var(--black-color);
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.ploblem-box_right:after {
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  position: absolute;
-  border-top-width: 8px;
-  border-bottom-width: 8px;
-  border-left-width: 17px;
-  border-right-width: 17px;
-  margin-top: -8px;
-  border-left-color: #ffffff;
-  left: 100%;
-  top: 48%;
-}
-
-.ploblem-txt {
-  padding: 8px;
-}
-@media screen and (min-width: 1080px) {
-  .ploblem-txt {
-    font-size: 22px;
-    line-height: 1.5;
-    padding: 12px;
-  }
-}
-
-.ploblem-txt_accent {
-  color: var(--red-color);
-}
-
-.ploblem-box_left {
-  position: relative;
-  width: 285px;
-  background: #ffffff;
-  text-align: left;
-  color: var(--black-color);
-  font-size: 16px;
-  font-weight: bold;
-}
-.ploblem-box_left:after {
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  position: absolute;
-  border-top-width: 8px;
-  border-bottom-width: 8px;
-  border-left-width: 17px;
-  border-right-width: 17px;
-  margin-top: -8px;
-  border-right-color: #ffffff;
-  right: 100%;
-  top: 48%;
 }
 
 .sunday-com {
