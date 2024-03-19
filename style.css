@@ -470,7 +470,7 @@ li {
 
 /* ------ キャンペーン ------ */
 .compaign {
-  margin: 80px 16px;
+  margin: 36px 16px;
   text-align: center;
 }
 @media screen and (min-width: 1080px) {
@@ -672,7 +672,7 @@ li {
 
 /* ------ 限定キャンペーン ------ */
 .limited-compaign_inner {
-  margin: 80px auto 12px;
+  margin: 36px auto 12px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -702,7 +702,7 @@ li {
 }
 
 .limited-compaign_container {
-  margin: 40px auto 0;
+  margin: 24px auto 0;
   width: 327px;
   padding: 24px 0;
 }
@@ -726,7 +726,7 @@ li {
   font-size: 12px;
   font-weight: normal;
   text-align: left;
-  margin: 24px 12px;
+  margin: 24px 12px 0;
 }
 @media screen and (min-width: 1080px) {
   .compaign-attention {
@@ -744,11 +744,12 @@ li {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
-  padding: 80px 0 60px;
+  padding: 48px 0 36px;
 }
 @media screen and (min-width: 1080px) {
   .wrong_ttl {
     font-size: 32px;
+    padding: 80px 0 60px;
   }
 }
 
@@ -842,7 +843,7 @@ li {
 }
 
 .u-arrow_container {
-  margin: 40px auto;
+  margin: 24px auto;
 }
 @media screen and (min-width: 1080px) {
   .u-arrow_container {
@@ -914,7 +915,7 @@ li {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  padding: 80px 16px;
+  padding: 48px 16px;
 }
 @media screen and (min-width: 1080px) {
   .solution-sunday_container {
@@ -949,11 +950,12 @@ li {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-  margin: 64px auto;
+  margin: 36px auto;
 }
 @media screen and (min-width: 1080px) {
   .sunday-com {
     font-size: 28px;
+    margin: 64px auto;
   }
 }
 
@@ -969,9 +971,13 @@ li {
 }
 
 .sunday-result_wrapper {
-  padding: 80px 16px;
+  padding: 36px 16px;
 }
-
+@media screen and (min-width: 1080px) {
+  .sunday-result_wrapper {
+    padding: 80px 16px;
+  }
+}
 .sunday-result_txt {
   font-size: 20px;
   font-weight: bold;
@@ -984,7 +990,7 @@ li {
 }
 
 .sunday-result_img {
-  margin: 48px 16px;
+  margin: 48px 0;
 }
 @media screen and (min-width: 1080px) {
   .sunday-result_img {
@@ -1005,7 +1011,6 @@ li {
 
 /* child-change */
 .before-after {
-  margin-top: 24px;
   background-image: linear-gradient(
       0deg,
       transparent calc(100% - 1px),
@@ -1150,7 +1155,7 @@ li {
 }
 
 .child-change_other {
-  margin-top: 120px;
+  margin-top: 60px;
   position: relative;
   font-size: 18px;
   font-weight: bold;
@@ -1168,7 +1173,7 @@ li {
 
 /* result-case */
 .result-case {
-  margin: 68px 24px;
+  margin: 48px 24px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -1349,11 +1354,12 @@ li {
   font-size: 20px;
   text-align: center;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 @media screen and (min-width: 1080px) {
   .maximum-effect_ttl {
     font-size: 28px;
+    margin-bottom: 80px;
   }
 }
 
@@ -1465,7 +1471,7 @@ li {
 }
 
 .startdash-compaign {
-  margin: 68px 16px;
+  margin: 48px 16px;
 }
 @media screen and (min-width: 1080px) {
   .startdash-compaign {
@@ -1482,10 +1488,6 @@ li {
   .startdash-txt {
     font-size: 36px;
   }
-}
-
-.startdash-disc_wrap {
-  font-size: 20px;
 }
 
 .learning_management {
@@ -1566,7 +1568,7 @@ li {
   color: var(--white-color);
   font-weight: bold;
   font-size: 20px;
-  margin: 48px auto;
+  margin: 24px auto;
   text-align: center;
 }
 @media screen and (min-width: 1080px) {
@@ -1589,11 +1591,21 @@ li {
 
 /* easy-point */
 .easy-point {
-  margin: 80px 0;
+  margin: 48px 0;
+}
+@media screen and (min-width: 1080px) {
+  .easy-point {
+    margin: 80px 0;
+  }
 }
 
 .easy-point_wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 1080px) {
+  easy-point_wrapper {
+    margin-bottom: 60px;
+  }
 }
 
 .easy-point_img {
@@ -1673,7 +1685,7 @@ li {
 
 /* feature */
 .feature-section {
-  margin: 80px 0;
+  margin: 48px 0;
 }
 @media screen and (min-width: 1080px) {
   .feature-section {
@@ -1730,14 +1742,14 @@ li {
 .feature-ribon {
   display: inline-block;
   position: relative;
-  height: 40px; /*高さ*/
-  line-height: 40px; /*高さ*/
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  padding: 0 40px 0 24px; /*文字の左右の余白*/
-  font-size: 18px; /*文字サイズ*/
+  padding: 0 40px 0 24px;
+  font-size: 18px;
   font-weight: bold;
-  background: var(--brown-color); /*背景色*/
-  color: #fff; /*文字色*/
+  background: var(--brown-color);
+  color: #fff;
   box-sizing: border-box;
   transform: translateY(-50%);
 }
@@ -1773,7 +1785,7 @@ li {
 }
 
 .feature-img {
-  width: 303px;
+  width: 333px;
   display: flex;
   margin: 0 auto;
 }
@@ -1801,7 +1813,7 @@ li {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   padding: 24px 0;
   line-height: 1.5;
 }
@@ -1809,6 +1821,7 @@ li {
   .first-offer_headtxt {
     font-size: 36px;
     padding: 36px;
+    margin-bottom: 48px;
   }
 }
 
@@ -1831,7 +1844,7 @@ li {
 .under-balloon_arrow {
   position: relative;
   padding: 0.5rem 0;
-  margin: 0 20px 48px;
+  margin: 0 20px 20px;
   border-bottom: 4px solid;
   color: var(--orange-color01);
   font-weight: bold;
@@ -1842,6 +1855,7 @@ li {
   .under-balloon_arrow {
     max-width: 500px;
     margin: 0 auto;
+    margin: 0 20px 48px;
   }
 }
 
@@ -1917,7 +1931,7 @@ li {
   color: var(--brown-color);
   font-weight: bold;
   text-align: center;
-  padding: 0 0 48px;
+  padding: 0 0 24px;
 }
 @media screen and (min-width: 1080px) {
   .first-trial_txt {
@@ -1986,12 +2000,13 @@ li {
 }
 
 .free-ticket {
-  padding: 24px 16px 36px;
+  padding: 0 16px;
 }
 @media screen and (min-width: 1080px) {
   .free-ticket {
     max-width: 850px;
     margin: 0 auto;
+    padding: 24px 16px 36px;
   }
 }
 
@@ -2012,7 +2027,7 @@ li {
   color: var(--brown-color);
   font-weight: bold;
   font-size: 18px;
-  margin: 40px 16px;
+  margin: 0 16px;
   text-align: center;
 }
 @media screen and (min-width: 1080px) {
@@ -2138,7 +2153,12 @@ li {
 }
 
 .flow-inner {
-  padding: 68px 16px;
+  padding: 36px 16px 24px;
+}
+@media screen and (min-width: 1080px) {
+  .flow-inner {
+    padding: 68px 16px;
+  }
 }
 
 .flow-ttl {
@@ -2148,7 +2168,7 @@ li {
 }
 
 .flow-ttl_txt {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 @media screen and (min-width: 1080px) {
@@ -2304,11 +2324,12 @@ li {
   font-size: 20px;
   text-align: center;
   position: relative;
-  margin: 68px 0;
+  margin: 36px 0 48px;
 }
 @media screen and (min-width: 1080px) {
   .school-ttl {
     font-size: 36px;
+    margin: 68px 0;
   }
 }
 
@@ -2331,7 +2352,6 @@ li {
     font-size: 18px;
   }
 }
-
 
 .school-ttl:before {
   content: "";
@@ -2478,7 +2498,12 @@ li {
 
 /* closing-section */
 .closing-section {
-  margin: 80px 0;
+  margin: 48px 0 0;
+}
+@media screen and (min-width: 1080px) {
+  .closing-section {
+    margin: 80px 0;
+  }
 }
 
 .closing-ttl {
@@ -2556,8 +2581,13 @@ li {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin: 48px 16px;
+  margin: 24px 16px;
   text-align: center;
+}
+@media screen and (min-width: 1080px) {
+  .closing-compaign {
+    margin: 48px 16px;
+  }
 }
 
 .stdsh-container {
@@ -2615,9 +2645,12 @@ li {
 }
 
 .closing-compaign-container {
-  margin: 48px auto 4px;
+  margin: 0 auto 4px;
 }
 @media screen and (min-width: 1080px) {
+  .closing-compaign-container {
+    margin: 48px auto 4px;
+  }
 }
 
 .closing-compaign_img {
@@ -2665,7 +2698,7 @@ li {
 .tel-container {
   border: 2px solid var(--brown-color);
   border-radius: 8px;
-  margin: 120px 16px 60px;
+  margin: 120px 16px 36px;
 }
 @media screen and (min-width: 1080px) {
   .tel-container {
@@ -2869,12 +2902,11 @@ li {
   padding: 8px;
   border: 1px solid var(--black-color);
   border-radius: 5px;
-  margin: 8px 8px 48px;
+  margin: 8px 8px 24px;
 }
 @media screen and (min-width: 1080px) {
   .form-textarea {
     width: 550px;
-    height: 255px;
     margin: 20px;
   }
 }
@@ -2906,7 +2938,12 @@ li {
   font-size: 14px;
   text-align: center;
   line-height: 1.5;
-  margin-bottom: 80px;
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 1080px) {
+  .ctc-policy {
+    margin-bottom: 80px;
+  }
 }
 
 .policy-link {
