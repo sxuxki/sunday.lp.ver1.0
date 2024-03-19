@@ -146,12 +146,17 @@ li {
 }
 
 .l_header__inner {
-  padding: 0 0 0 14px;
+  padding: 0 0 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: inherit;
   position: relative;
+}
+@media screen and (min-width: 1080px) {
+  .l_header__inner {
+    padding-left: 30px;
+  }
 }
 
 .l_header-logo {
@@ -167,19 +172,12 @@ li {
 
 .header-ctc_wrapper {
   display: flex;
-  margin: auto 0;
-}
-@media screen and (min-width: 768px) {
-  .header-ctc_wrapper {
-    display: flex;
-    margin: 12px 12pxpx 0 0;
-    justify-content: center;
-  }
+  margin: auto;
 }
 @media screen and (min-width: 1080px) {
   .header-ctc_wrapper {
     display: flex;
-    margin: auto 30px 0 0;
+    margin: auto 60px;
     justify-content: center;
   }
 }
@@ -197,17 +195,19 @@ li {
 }
 @media screen and (min-width: 1080px) {
   .h-tel-btn {
-    margin: 0 36px 12px;
+    margin: 0 12px;
   }
 }
 
 .h-tel-btn_img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  margin: auto;
 }
 
 .h-tel-detail {
-  margin-left: 8px;
+  margin: -16px 0 0 12px;
+  height: 59px;
 }
 
 .h-tel-number {
@@ -220,22 +220,24 @@ li {
     color: var(--orange-color01);
     font-size: 24px;
     font-weight: bold;
+    margin-top: -8px;
   }
 }
 
 .h-work-time {
   margin-top: -8px;
   font-size: 12px;
+  font-weight: bold;
 }
 
 .dr_btn {
   width: 144px;
-  vertical-align: middle;
-  margin: 12px;
 }
 @media screen and (min-width: 768px) {
   .dr_btn {
     width: 200px;
+    height: 54px;
+    margin: auto;
   }
 }
 
@@ -1182,7 +1184,7 @@ li {
 @media screen and (min-width: 1080px) {
   .result-case {
     margin: 80px auto;
-    max-width: 850px;
+    max-width: 700px;
     justify-content: space-between;
   }
 }
@@ -1295,7 +1297,8 @@ li {
   .line_comments-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 80px;
+    margin: 80px auto;
+    width: 900px;
   }
 }
 
@@ -1791,7 +1794,7 @@ li {
 }
 @media screen and (min-width: 1080px) {
   .feature-img {
-    width: 400px;
+    width: 700px;
   }
 }
 
@@ -1855,7 +1858,6 @@ li {
   .under-balloon_arrow {
     max-width: 500px;
     margin: 0 auto;
-    margin: 0 20px 48px;
   }
 }
 
@@ -2746,12 +2748,12 @@ li {
 
 .tel-btn {
   display: flex;
-  margin: 0 auto 12px;
+  margin: auto 12px;
   align-items: center;
 }
 @media screen and (min-width: 1080px) {
   .tel-btn {
-    margin: 12px auto 24px;
+    margin: auto 24px;
   }
 }
 
