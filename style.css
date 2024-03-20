@@ -495,7 +495,7 @@ li {
 
 /* ------ キャンペーン ------ */
 .compaign {
-  margin: 36px 16px;
+  padding: 48px 16px;
   text-align: center;
 }
 @media screen and (min-width: 1080px) {
