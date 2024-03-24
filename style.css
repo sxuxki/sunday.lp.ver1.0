@@ -2851,7 +2851,8 @@ li {
   background: var(--primary-color);
   font-size: 14px;
   margin: 36px 0;
-  padding: 16px 6px;
+  padding: 24px 16px;
+  line-height: 1.5;
 }
 @media screen and (min-width: 1080px) {
   .ctc-desc {
@@ -2859,6 +2860,7 @@ li {
     margin: 60px;
     text-align: center;
     padding: 24px;
+    line-height: 2.0;
   }
 }
 
