@@ -2872,21 +2872,43 @@ li {
   padding-left: 8px;
   font-weight: bold;
 }
+@media screen and (min-width: 1080px) {
+  .ctc_form_heading {
+    font-size: 18px;
+    padding-left: 0;
+  }
+}
 
 .ctc_req {
   background: var(--orange-color01);
   color: var(--white-color);
   font-weight: bold;
-  padding: 3px 6px;
+  font-size: 14px;
+  padding: 2px 4px;
   border-radius: 4px;
+  margin-right: 4px;
+}
+@media screen and (min-width: 1080px) {
+  .ctc_req {
+    font-size: 16px;
+    padding: 3px 6px;
+  }
 }
 
 .ctc_any {
   background: #a0a0a0;
   color: var(--white-color);
   font-weight: bold;
-  padding: 3px 6px;
+  font-size: 14px;
+  padding: 2px 4px;
   border-radius: 4px;
+  margin-right: 4px;
+}
+@media screen and (min-width: 1080px) {
+  .ctc_any {
+    font-size: 16px;
+    padding: 3px 6px;
+  }
 }
 
 .ctc_form_example {
@@ -2898,7 +2920,7 @@ li {
   font-size: 12px;
   line-height: 1.5;
   padding: 8px;
-  margin: -40px 8px 48px;
+  margin: -20px 8px 48px;
 }
 @media screen and (min-width: 1080px) {
   .ctc_mail-txt {
@@ -2912,12 +2934,12 @@ li {
   padding: 8px;
   border: 1px solid var(--black-color);
   border-radius: 5px;
-  margin: 8px 8px 48px;
+  margin: 8px 8px 20px;
 }
 @media screen and (min-width: 1080px) {
   .form-input {
     width: 550px;
-    margin: 20px auto;
+    margin: 12px auto 24px;
   }
 }
 
@@ -2932,9 +2954,10 @@ li {
 @media screen and (min-width: 1080px) {
   .form-textarea {
     width: 550px;
-    margin: 20px;
+    margin: 12px 0 24px;
   }
 }
+
 
 .ctc_form_detail_area {
   height: 255px;
