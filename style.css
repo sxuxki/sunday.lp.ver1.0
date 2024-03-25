@@ -355,7 +355,7 @@ li {
 }
 
 .hamburger {
-  background-color: var(--yellow-color01);
+/*   background-color: var(--yellow-color01); */
   width: 60px;
   height: 60px;
   border-color: transparent;
