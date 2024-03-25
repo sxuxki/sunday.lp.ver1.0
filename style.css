@@ -2957,6 +2957,22 @@ li {
   }
 }
 
+.check-input {
+  width: 325px;
+  height: 40px;
+  padding: 4px 8px;
+  border: 1px solid var(--black-color);
+  border-radius: 5px;
+  margin: 8px 8px 20px;
+}
+@media screen and (min-width: 1080px) {
+  .check-input {
+    width: 550px;
+    margin: 12px auto 24px;
+    padding: 8px;
+  }
+}
+
 .form-checkbox-item {
   background: var(--primary-color);
   margin: 8px 8px 20px;
