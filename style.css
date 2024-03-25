@@ -2957,6 +2957,27 @@ li {
   }
 }
 
+.form-checkbox-item {
+  background: var(--primary-color);
+  margin: 8px 8px 20px;
+  padding: 8px 0;
+}
+@media screen and (min-width: 1080px) {
+  .form-checkbox-item {
+    margin: 8px 0 20px;
+    padding: 8px 0;
+  }
+}
+
+.form-label {
+  padding-left: 4px;
+}
+@media screen and (min-width: 1080px) {
+  .form-label {
+    padding-left: 8px;
+  }
+}
+
 .form-textarea {
   width: 325px;
   padding: 8px;
