@@ -749,18 +749,29 @@ li {
 
 /* ----- お悩み ----- */
 .wrong-section {
-  background: var(--black-color01);
+  background: #2c2828;
+}
+
+.wrong_ttl-container {
+  position: relative;
 }
 
 .wrong_ttl {
+  position: absolute; /*重ねたい子要素にabsolute*/
+  top: 70%;
+  left: 0;
+  transform: translate(12%, -50%);
   color: var(--white-color);
   font-weight: bold;
   font-size: 18px;
   text-align: center;
-  padding: 48px 0 36px;
+  padding: -20px 0 36px;
 }
 @media screen and (min-width: 1080px) {
   .wrong_ttl {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 32px;
     padding: 80px 0 60px;
   }
