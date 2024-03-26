@@ -2952,7 +2952,7 @@ li {
 .ctc-container {
   border: 2px solid var(--brown-color);
   border-radius: 8px;
-  margin: 0 16px 120px;
+  margin: 36px auto;
 }
 @media screen and (min-width: 1080px) {
   .ctc-container {
