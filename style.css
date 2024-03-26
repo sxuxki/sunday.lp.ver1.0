@@ -788,6 +788,10 @@ li {
 }
 
 /* ------お悩みの内容------ */
+.wrong-ditail_container {
+  margin: 36px auto 0;
+}
+
 .wrong__item {
   background: var(--white-color);
   margin: 24px 16px;
