@@ -2731,6 +2731,91 @@ li {
   margin-bottom: 120px;
 }
 
+/* access */
+.access-inner {
+  margin: 48px 16px;
+}
+@media screen and (min-width: 1080px) {
+  .access-inner {
+    margin: 120px auto;
+    width: 850px;
+  }
+}
+
+.access-heading {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 1080px) {
+  .access-heading {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+}
+
+.access-accent {
+  font-size: 24px;
+}
+@media screen and (min-width: 1080px) {
+  .access-accent {
+    font-size: 48px;
+  }
+}
+
+.access-info {
+  flex-grow: 1;
+}
+@media screen and (min-width: 1080px) {
+  .access-info {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 0;
+    gap: 80px;
+  }
+}
+
+.access-img img {
+  border-radius: 8px;
+}
+@media screen and (min-width: 1080px) {
+  .access-img img {
+    width: 353px;
+    margin: 0 40px;
+  }
+}
+
+.access-logo {
+  width: 220px;
+  margin: 16px 0;
+}
+
+.school-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.access-txt {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.access-map {
+  border-radius: 8px;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 1080px) {
+  .access-map {
+    margin: 6rem auto;
+    width: 850px;
+    height: 215px;
+  }
+}
+
 /* contact */
 .tel-container {
   border: 2px solid var(--brown-color);
