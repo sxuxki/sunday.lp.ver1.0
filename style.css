@@ -2957,6 +2957,10 @@ li {
   }
 }
 
+select {
+  color: var(--blue-color02);
+}
+
 .check-input {
   width: 325px;
   height: 40px;
