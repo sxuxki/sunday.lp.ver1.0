@@ -35,3 +35,12 @@ const nav = document.querySelector("#js-nav");
       el: '.swiper-scrollbar', //要素指定
     },
   });
+
+function changeColor(hoge) {
+  if (hoge.value == 0) {
+    hoge.style.color = "";
+  } else {
+    hoge.style.color = "#001c2b";
+  }
+}
+
