@@ -704,16 +704,13 @@ li {
 .limited-compaign_accent {
   font-size: 30px;
   color: var(--white-color);
-  background: var(--brown-color);
+  background: var(--orange-color02);
   border-radius: 4px;
   padding: 4px 12px;
 }
 @media screen and (min-width: 1080px) {
   .limited-compaign_accent {
     font-size: 48px;
-    color: var(--white-color);
-    background: var(--brown-color);
-    border-radius: 4px;
     padding: 8px 24px;
   }
 }
