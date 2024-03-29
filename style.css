@@ -2251,6 +2251,7 @@ li {
 @media screen and (min-width: 1080px) {
   .hukidasi-img {
     width: 850px;
+    padding: 80px 0;
   }
 }
 
@@ -2263,7 +2264,6 @@ li {
 @media screen and (min-width: 1080px) {
   .first-trial_txt {
     font-size: 28px;
-    margin-top: 120px;
   }
 }
 
