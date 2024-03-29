@@ -1365,7 +1365,7 @@ li {
 }
 
 .line_comments-container {
-  margin: 48px 0;
+  margin: 12px 0 36px;
   padding: 0 18px;
 }
 @media screen and (min-width: 1080px) {
@@ -1375,6 +1375,14 @@ li {
     margin: 80px auto;
     width: 850px;
   }
+}
+
+.line-comments_txt {
+  color: var(--brown-color);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .line-comments {
