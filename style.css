@@ -603,7 +603,7 @@ li {
 /* ------キャンペーン内容------ */
 .compaign-menu {
   border: 2px solid var(--green-color);
-  margin: 0 16px 48px;
+  margin: -20px 16px 48px;
 }
 @media screen and (min-width: 1080px) {
   .compaign-menu {
