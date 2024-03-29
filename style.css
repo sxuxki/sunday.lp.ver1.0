@@ -1730,7 +1730,7 @@ li {
 }
 
 .easy-point_count {
-  background: var(--orange-color02);
+  background: var(--brown-color);
   border-radius: 4px;
   color: var(--white-color);
   font-size: 20px;
@@ -1744,7 +1744,7 @@ li {
 }
 
 .easy-point_subttl {
-  color: var(--green-color);
+  color: var(--orange-color01);
   font-size: 20px;
   font-weight: bold;
   margin: 12px 0 24px;
@@ -1757,7 +1757,7 @@ li {
 }
 
 .green-txt {
-  color: var(--green-color);
+  color: var(--orange-color01);
 }
 
 .easy-point_txt {
@@ -1857,7 +1857,7 @@ li {
 }
 
 .feature-subttl {
-  color: var(--green-color);
+  color: var(--orange-color01);
   font-weight: bold;
   font-size: 20px;
   margin: 16px 20px 24px 20px;
