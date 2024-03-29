@@ -494,6 +494,7 @@ li {
 
 .compaign-inner {
   border: 2px solid var(--pink-color);
+  background: var(--white-color);
 }
 @media screen and (min-width: 768px) {
   .compaign-inner {
@@ -1043,6 +1044,48 @@ li {
     font-size: 48px;
   }
 }
+
+/* appeal_cta */
+.appeal_cta {
+  background-image: linear-gradient(90deg, rgba(251, 253, 191, 0.58), rgba(255, 233, 207, 0.58));
+}
+
+.appeal-inner {
+  padding: 16px 0 0;
+}
+@media screen and (min-width: 1080px) {
+  .appeal-inner {
+    padding: 36px 0;
+  }
+}
+
+.appeal-pop {
+  width: 275px;
+  margin: 8px auto;
+}
+
+.appeal_txt {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1080px) {
+  .appeal_txt {
+    font-size: 32px;
+  }
+}
+
+.appeal_accent {
+  color: var(--orange-color02);
+  font-size: 44px;
+}
+@media screen and (min-width: 1080px) {
+  .appeal_accent {
+    font-size: 56px;
+  }
+}
+
 
 /* child-change */
 .before-after {
