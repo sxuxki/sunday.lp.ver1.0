@@ -640,7 +640,7 @@ li {
 }
 
 .hearing {
-  background: var(--brown-color);
+  background: var(--orange-color01);
   border-radius: 4px;
   padding: 4px 8px;
 }
@@ -651,7 +651,7 @@ li {
 }
 
 .personal-coaching {
-  background: var(--brown-color);
+  background: var(--orange-color01);
   border-radius: 4px;
   padding: 4px 8px;
 }
@@ -671,7 +671,7 @@ li {
 }
 
 .proposal-plan {
-  background: var(--brown-color);
+  background: var(--orange-color01);
   border-radius: 4px;
   padding: 4px 8px;
 }
@@ -1571,13 +1571,13 @@ li {
 }
 
 .learning_management {
-  background: var(--brown-color);
+  background: var(--orange-color01);
   padding: 4px 8px;
   border-radius: 4px;
 }
 
 .test_control {
-  background: var(--brown-color);
+  background: var(--orange-color01);
   padding: 4px 8px;
   border-radius: 4px;
 }
