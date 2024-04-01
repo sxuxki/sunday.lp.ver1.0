@@ -3079,6 +3079,11 @@ li {
   padding: 4px 0;
   margin: 16px auto;
 }
+@media screen and (min-width: 1080px) {
+  .map-btn {
+    margin: 28px auto;
+  }
+}
 
 /* contact */
 .ctc-section {
