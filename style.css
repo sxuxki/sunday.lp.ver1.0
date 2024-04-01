@@ -5,7 +5,7 @@
   --black-color: #001c2b;
   --black-color01: #3b4045;
   --brown-color: #6f5347;
-  --white-color: #fff;
+  --white-color: #ffffff;
   --gray-color: #e2e2e2;
   --primary-color: #fffbea;
   --yellow-color: #feec73;
@@ -1011,7 +1011,7 @@ li {
   }
 }
 .sunday-result_txt {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
@@ -1019,6 +1019,13 @@ li {
   .sunday-result_txt {
     font-size: 32px;
   }
+}
+
+.sunday-result_txt2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.8;
 }
 
 .sunday-result_img {
@@ -1030,6 +1037,22 @@ li {
     width: 850px;
   }
 }
+
+@media screen and (min-width: 1080px) {
+  .coaching-sp {
+    display: none;
+  }
+}
+
+.coaching-pc {
+  display: none;
+}
+@media screen and (min-width: 1080px) {
+  .coaching-pc {
+    display: block;
+  }
+}
+
 
 .sunday-result_manifest {
   color: var(--orange-color01);
@@ -1107,7 +1130,7 @@ li {
 
 .ba-u_balloon {
   position: relative;
-  width: 168px;
+  width: 200px;
   height: 38px;
   background: #e65a5a;
   padding: 4px;
@@ -2390,86 +2413,6 @@ li {
 
 .padding {
   padding-bottom: 36px;
-}
-
-.qanda {
-  margin: 48px 16px;
-}
-@media screen and (min-width: 1080px) {
-  .qanda {
-    max-width: 850px;
-    margin: 60px auto;
-  }
-}
-
-.Qa-Box .Qa dt,
-.Qa-Box .Qa dd {
-  display: flex;
-  align-items: baseline;
-  margin: 15px 0;
-  padding: 15px;
-}
-
-.Qa-Box .Qa dt {
-  background: var(--primary-color);
-}
-.Qa-Box .Qa dd {
-  background: var(--primary-color);
-}
-
-.Qa-Box .Qa dt p {
-  margin: 0;
-  padding-left: 15px;
-  font-weight: bold;
-  width: 100%;
-  color: var(--brown-color);
-  font-size: 18px;
-}
-@media screen and (min-width: 1080px) {
-  .Qa-Box .Qa dt p {
-    font-size: 22px;
-  }
-}
-
-.Qa-Box .Qa dd p {
-  margin: 0;
-  padding-left: 15px;
-  width: 100%;
-  color: var(--brown-color);
-  line-height: 1.7;
-}
-@media screen and (min-width: 1080px) {
-  .Qa-Box .Qa dd p {
-    font-size: 18px;
-  }
-}
-
-.Qa-Box .Qa dt::before {
-  content: "Q";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background: #6699b7;
-  width: 2em;
-  height: 2em;
-}
-
-.Qa-Box .Qa dd::before {
-  content: "A";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background: #d65556;
-  width: 2em;
-  height: 2em;
-}
-
-@media screen and (max-width: 960px) {
-  .Qa-Box {
-    width: 95%;
-  }
 }
 
 /* flow-section */
