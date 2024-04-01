@@ -2676,26 +2676,6 @@ li {
   }
 }
 
-.school-accent {
-  color: var(--green-color);
-  font-size: 18px;
-  font-weight: bold;
-}
-@media screen and (min-width: 1080px) {
-  .school-accent {
-    font-size: 24px;
-  }
-}
-
-.school-name {
-  font-weight: bold;
-}
-@media screen and (min-width: 1080px) {
-  .school-name {
-    font-size: 18px;
-  }
-}
-
 .school-ttl:before {
   content: "";
   position: absolute;
@@ -2804,7 +2784,7 @@ li {
 .accordion-hidden:checked + .accordion-open + .accordion-inner {
   height: auto;
   opacity: 1;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .accordion_qa .Q,
@@ -2838,6 +2818,7 @@ li {
   opacity: 1;
   padding: 10px 10px 10px 2.5em;
 }
+
 
 /* closing-section */
 .closing-section {
@@ -3038,58 +3019,65 @@ li {
 }
 
 /* access */
-.access-info {
-  flex-grow: 1;
+.area-container {
+  display: flex;
+  margin: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.area-card {
+  width: 160px;
+  line-height: 1.3;
 }
 @media screen and (min-width: 1080px) {
-  .access-info {
-    position: relative;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-left: -20px;
-    gap: 60px;
-    width: 650px;
-    /* width: 100%; */
+  .area-card {
+    width: 200px;
   }
 }
 
-.access-img img {
+.school-img {
+  width: 160px;
+  height: 100px;
   border-radius: 8px;
 }
 @media screen and (min-width: 1080px) {
-  .access-img img {
-    width: 352px;
-    /* margin: 0 40px; */
+  .school-img {
+  width: 200px;
+  height: 140px;
   }
-}
-
-.access-logo {
-  width: 220px;
-  margin: 16px 0;
 }
 
 .school-name {
   font-size: 14px;
   font-weight: bold;
-}
-
-.access-txt {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-top: 8px;
-}
-
-.access-map {
-  border-radius: 8px;
-  margin: 3rem auto;
+  margin: 16px 0 12px;
 }
 @media screen and (min-width: 1080px) {
-  .access-map {
-    margin-left: -20px;
-    width: 650px;
-    height: 215px;
-    text-align: center;
+  .school-name {
+    font-size: 18px;
   }
+}
+
+.school-detail {
+  font-size: 12px;
+}
+@media screen and (min-width: 1080px) {
+  .school-detail {
+    font-size: 16px;
+  }
+}
+
+.map-btn {
+  width: 160px;
+  height: 35px;
+  border: 1px solid var(--orange-color01);
+  border-radius: 100vh;
+  color: var(--orange-color01);
+  text-align: center;
+  font-weight: bold;
+  padding: 4px 0;
+  margin: 16px auto;
 }
 
 /* contact */
