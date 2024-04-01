@@ -3221,7 +3221,7 @@ li {
 .ctc-container {
   border: 2px solid var(--brown-color);
   border-radius: 8px;
-  margin: 36px auto;
+  margin: 36px auto 80px;
 }
 @media screen and (min-width: 1080px) {
   .ctc-container {
