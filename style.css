@@ -494,6 +494,7 @@ li {
 
 .compaign-inner {
   border: 2px solid var(--orange-color02);
+  border-radius: 4px;
   background: var(--white-color);
 }
 @media screen and (min-width: 768px) {
@@ -602,6 +603,7 @@ li {
 /* ------キャンペーン内容------ */
 .compaign-menu {
   border: 2px solid var(--brown-color);
+  border-radius: 4px;
   margin: -24px 16px 48px;
 }
 @media screen and (min-width: 1080px) {
@@ -1421,8 +1423,6 @@ li {
 .promotion-ttl {
   background: var(--brown-color);
   box-shadow: 0 0 0 10px var(--brown-color);
-  border-top: 3px dashed var(--white-color);
-  border-bottom: 3px dashed var(--white-color);
   color: var(--white-color);
   font-weight: bold;
   font-size: 18px;
@@ -1439,10 +1439,13 @@ li {
 
 .promoion-accent {
   font-size: 24px;
+  color: #FFEFAF;
+  border-bottom: 3px solid #FFEFAF;
 }
 @media screen and (min-width: 1080px) {
   .promoion-accent {
     font-size: 48px;
+    border-bottom: 5px solid #FFEFAF;
   }
 }
 
@@ -1499,6 +1502,7 @@ li {
 
 .maximum-effect_txt_box {
   border: 2px solid var(--orange-color01);
+  border-radius: 4px;
   margin: 48px 16px 24px;
   padding: 12px;
 }
@@ -1520,7 +1524,7 @@ li {
 }
 
 .under-line {
-  border-bottom: 3px solid var(--brown-color);
+  border-bottom: 3px solid var(--orange-color02);
 }
 
 .maximum-effect_current {
@@ -1712,16 +1716,16 @@ li {
 }
 
 .easy-point_img {
-  width: 115px;
+  width: 180px;
   position: relative;
   top: 30px;
-  left: 16px;
+  left: 25%;
 }
 @media screen and (min-width: 1080px) {
   .easy-point_img {
-    width: 200px;
+    width: 250px;
     position: relative;
-    left: 20%;
+    left: 42%;
   }
 }
 .easy-point_ttl {
@@ -1730,7 +1734,7 @@ li {
   font-weight: bold;
   font-size: 22px;
   text-align: center;
-  padding: 24px 0;
+  padding: 36px 0 24px;
   line-height: 1.5;
 }
 @media screen and (min-width: 1080px) {
@@ -1803,15 +1807,17 @@ li {
   text-align: center;
 }
 
-.rate-txt {
-  background: var(--orange-color01);
-  color: var(--white-color);
-  font-weight: bold;
-  padding: 10px 12px;
+.rate-img {
+  width: 150px;
+  position: relative;
+  top: 25px;
+  left: 30%;
 }
 @media screen and (min-width: 1080px) {
-  .rate-txt {
-    font-size: 28px;
+  .rate-img {
+    width: 250px;
+    top: 35px;
+    left: 43%;
   }
 }
 
@@ -1819,11 +1825,11 @@ li {
   background: var(--yellow-color);
   font-weight: bold;
   font-size: 22px;
-  padding: 14px;
+  padding:  24px 0 14px;
 }
 @media screen and (min-width: 1080px) {
   .rate-ttl_txt {
-    font-size: 36px;
+    font-size: 44px;
   }
 }
 
